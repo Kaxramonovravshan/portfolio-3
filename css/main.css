@@ -510,13 +510,13 @@ img{
 }
 
 .projects__container .swiper-button-prev{
-    left: -1rem;
-    top: 4.5rem;
+    left: 0rem;
+    top: 2.5rem;
 }
 
 .projects__container .swiper-button-next{
-    right: -1rem;
-    top: 4.5rem;
+    right: 0rem;
+    top: 2.5rem;
 }
 
 .projects__container .swiper-slide{
@@ -976,12 +976,14 @@ img{
         font-size: 3rem;
     }
 
-    .projects__conatiner .swiper-button-prev{
-        left: -1rem;
+    .projects__container .swiper-button-prev{
+        left: 0rem;
+        top: 4.5rem;
     }
-
-    .projects__conatiner .swiper-button-next{
-        right: -1rem;
+    
+    .projects__container .swiper-button-next{
+        right: 0rem;
+        top: 4.5rem;
     }
 
     .projects__conatiner .swiper-slide{
